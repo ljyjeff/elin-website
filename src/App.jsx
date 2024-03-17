@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  createHashRouter,
+  createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
 
@@ -13,7 +13,7 @@ import ChildrensBookPage from './routes/ChildrensBookPage';
 import RealismPage from './routes/RealismPage';
 import CharacterDesignPage from './routes/CharacterDesignPage';
 
-const router = createHashRouter([
+const router = createBrowserRouter([
     {
       path: "/",
       element: <MainPage />,
