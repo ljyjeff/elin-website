@@ -2,7 +2,9 @@ import React from 'react';
 import {
   createBrowserRouter,
   RouterProvider,
+  Outlet,
 } from "react-router-dom";
+import Navbar from "./components/Navbar";
 
 // Import your components for each page
 import MainPage from './routes/MainPage';
@@ -16,31 +18,35 @@ import CharacterDesignPage from './routes/CharacterDesignPage';
 const router = createBrowserRouter([
     {
       path: "/",
-      element: <MainPage />,
+      element: <NavbarWrapper />,
       errorElement: <ErrorPage />,
       children: [
         {
-            path: "/illustration",
-            element: <IllustrationPage />,
+          path: "/",
+          element: <MainPage />,
         },
         {
-            path: "/comic",
-            element: <ComicPage />,
+          path: "/illustration",
+          element: <IllustrationPage />,
         },
         {
-            path: "/childrensbook",
-            element: <ChildrensBookPage />,
+          path: "/comic",
+          element: <ComicPage />,
         },
         {
-            path: "/realism",
-            element: <RealismPage />,
+          path: "/childrensbook",
+          element: <ChildrensBookPage />,
         },
         {
-            path: "/characterdesign",
-            element: <CharacterDesignPage />,
+          path: "/realism",
+          element: <RealismPage />,
+        },
+        {
+          path: "/characterdesign",
+          element: <CharacterDesignPage />,
         },
       ]
-    },
+    }
   ]);
 
 function App() {
@@ -48,5 +54,14 @@ function App() {
     <RouterProvider router={router} />
   );
 }
+
+function NavbarWrapper() {
+  return (
+  <div>
+    <Navbar/>
+    <Outlet/>
+  </div>
+  )
+};
 
 export default App;

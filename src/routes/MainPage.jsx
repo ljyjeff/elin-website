@@ -1,8 +1,8 @@
-import { Outlet, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export default function MainPage() {
-    return (
-      <>
+  return (
+    <>
       <div id="header">
         <nav>
           <ul>
@@ -27,9 +27,6 @@ export default function MainPage() {
           </ul>
         </nav>
       </div>
-      <div id="page">
-        <Outlet />
-      </div>
     </>
-    );
-  }
+  );
+}
