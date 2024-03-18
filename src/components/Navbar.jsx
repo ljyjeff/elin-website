@@ -13,7 +13,7 @@ const Navbar = () => {
   };
 
   const closeMenuOnMobile = () => {
-    if (window.innerWidth <= 1150) {
+    if (window.innerWidth <= 600) {
       setShowMenu(false);
     }
   };
@@ -34,17 +34,22 @@ const Navbar = () => {
          <ul className="nav__list">
            <li className="nav__item">
               <NavLink to="/" className="nav__link" onClick={closeMenuOnMobile}>
+                Illustration
+                </NavLink>
+           </li>
+           <li className="nav__item">
+              <NavLink to="/" className="nav__link" onClick={closeMenuOnMobile}>
+                Comic
+                </NavLink>
+           </li>
+           <li className="nav__item">
+              <NavLink to="/" className="nav__link" onClick={closeMenuOnMobile}>
+                Children's Book
+                </NavLink>
+           </li>
+           <li className="nav__item">
+              <NavLink to="/" className="nav__link" onClick={closeMenuOnMobile}>
                 About
-                </NavLink>
-           </li>
-           <li className="nav__item">
-              <NavLink to="/" className="nav__link" onClick={closeMenuOnMobile}>
-                Works
-                </NavLink>
-           </li>
-           <li className="nav__item">
-              <NavLink to="/" className="nav__link" onClick={closeMenuOnMobile}>
-                Contact
                 </NavLink>
            </li>
          </ul>

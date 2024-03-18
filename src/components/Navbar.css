@@ -1,5 +1,9 @@
 /* mobile */
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 600px) {
+  .nav {
+    height: var(--header-height);
+    flex-direction: row;
+  }
   .nav__menu {
     position: fixed;
     top: 0;
@@ -19,9 +23,11 @@
 }
 
 /* PC */
-@media screen and (min-width: 1150px) {
+@media screen and (min-width: 600px) {
   .nav {
     height: calc(var(--header-height) + 1rem);
+    flex-direction: column;
+    row-gap: 2.5rem;
   }
   .nav__toggle,
   .nav__close {
@@ -30,7 +36,7 @@
  
   .nav__list {
     flex-direction: row;
-    column-gap: 1.5rem;
+    column-gap: 2.5rem;
   }
 }
 
@@ -48,8 +54,7 @@
   align-items: center;
   justify-content: space-between;
   position: relative;
-  height: var(--header-height);
-  margin: 1rem 2rem;
+  margin: 1.5rem;
 }
 
 .nav__logo {
@@ -80,6 +85,7 @@
   color: var(--title-color);
   font-family: var(--body-font-font-family);
   font-style: var(--body-font-font-style);
+  font-size: 1.5rem;
   transition: color 0.4s;
 }
 
