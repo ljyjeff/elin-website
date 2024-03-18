@@ -1,5 +1,9 @@
 /* mobile */
 @media screen and (max-width: 600px) {
+  .header {
+    position: relative;
+    top: 0;
+  }
   .nav {
     height: var(--header-height);
     flex-direction: row;
@@ -24,6 +28,10 @@
 
 /* PC */
 @media screen and (min-width: 600px) {
+  .header {
+    position: sticky;
+    top: calc(var(--header-height) * -1);
+  }
   .nav {
     height: calc(var(--header-height) + 1rem);
     flex-direction: column;
@@ -41,9 +49,7 @@
 }
 
 .header {
-  position: fixed;
   width: 100%;
-  top: 0;
   left: 0;
   background-color: transparent;
   z-index: var(--z-fixed);
@@ -77,6 +83,7 @@
   transition: background-color 0.3s ease;
   padding: 0.75rem 1.5rem;
 }
+
 .nav__list {
   display: flex;
 }
