@@ -1,0 +1,35 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.logo {
+  height: var(--logo-height);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 1.5rem;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.navbar {
+  position: -webkit-sticky; 
+  position: sticky; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: transparent;
+  z-index: var(--z-fixed);
+}
+
+.content {
+  position: relative;
+  margin: 1rem;
+}

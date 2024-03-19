@@ -3,17 +3,17 @@ import {
   createBrowserRouter,
   RouterProvider,
   Outlet,
+  Navigate
 } from "react-router-dom";
 import Navbar from "./components/Navbar";
+import "./App.css";
 
 // Import your components for each page
-import MainPage from './routes/MainPage';
 import ErrorPage from "./routes/ErrorPage";
 import IllustrationPage from './routes/IllustrationPage';
 import ComicPage from './routes/ComicPage';
 import ChildrensBookPage from './routes/ChildrensBookPage';
-import RealismPage from './routes/RealismPage';
-import CharacterDesignPage from './routes/CharacterDesignPage';
+import navLogo from 'assets/header-home.png';
 
 const router = createBrowserRouter([
     {
@@ -23,7 +23,7 @@ const router = createBrowserRouter([
       children: [
         {
           path: "/",
-          element: <MainPage />,
+          element: <Navigate to="/illustration" />,
         },
         {
           path: "/illustration",
@@ -37,14 +37,6 @@ const router = createBrowserRouter([
           path: "/childrensbook",
           element: <ChildrensBookPage />,
         },
-        {
-          path: "/realism",
-          element: <RealismPage />,
-        },
-        {
-          path: "/characterdesign",
-          element: <CharacterDesignPage />,
-        },
       ]
     }
   ]);
@@ -57,9 +49,16 @@ function App() {
 
 function NavbarWrapper() {
   return (
-  <div>
-    <Navbar/>
-    <Outlet/>
+  <div className="app">
+    <div className="logo">
+      <img src={navLogo} alt="" />
+    </div>
+    <div className="navbar">
+      <Navbar/>
+    </div>
+    <div className="content">
+      <Outlet/>
+    </div>
   </div>
   )
 };

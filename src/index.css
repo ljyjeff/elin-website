@@ -7,19 +7,20 @@
 }
 
 :root {
- --header-height: 7.5rem;
- --first-color: hsl(341, 50%, 42%);
- --title-color: hsl(341, 43%, 64%);
- --text-color: hsl(341, 43%, 64%);
- --body-color: hsl(0, 0%, 100%);
- --body-font-font-family: "Space Mono";
- --body-font-font-style: normal;
- --h2-font-size: 1.25rem;
- --small-font-size: 0.813rem;
- --font-weight-normal: 400;
- --font-weight-semi-bold: 600;
- --z-tooltip: 10;
- --z-fixed: 100;
+  --navbar-height: 2.5rem;
+  --logo-height: 8.5rem;
+  --first-color: hsl(341, 50%, 42%);
+  --title-color: hsl(341, 43%, 64%);
+  --text-color: hsl(341, 43%, 64%);
+  --body-color: hsl(0, 0%, 100%);
+  --body-font-font-family: "Space Mono";
+  --body-font-font-style: normal;
+  --h2-font-size: 1.25rem;
+  --small-font-size: 0.813rem;
+  --font-weight-normal: 400;
+  --font-weight-semi-bold: 600;
+  --z-tooltip: 10;
+  --z-fixed: 100;
 }
 
 body {
