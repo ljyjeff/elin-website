@@ -1,14 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.13615064.css",
-    "main.js": "/static/js/main.3f689da4.js",
+    "main.css": "/static/css/main.72ad9785.css",
+    "main.js": "/static/js/main.1bbe95a9.js",
+    "static/media/sheeleepy.jpg": "/static/media/sheeleepy.2ab7f4aa5e78d12a82e4.jpg",
+    "static/media/spring_rain.jpg": "/static/media/spring_rain.d91c2c1a2fad6bdcfa11.jpg",
     "static/media/header-home.png": "/static/media/header-home.b2095ccb0200207250d3.png",
+    "static/media/red_and_ak_grandma.jpg": "/static/media/red_and_ak_grandma.b9f742472919dbf070c2.jpg",
+    "static/media/listen_to_summer.jpg": "/static/media/listen_to_summer.be383345d15beadbfebc.jpg",
+    "static/media/self_portrait.jpg": "/static/media/self_portrait.43c669b9641a965486fc.jpg",
+    "static/media/giant_2.jpg": "/static/media/giant_2.040e0a85adff580825ac.jpg",
+    "static/media/giant_1.jpg": "/static/media/giant_1.bc49e36425589b7b64d8.jpg",
+    "static/media/ghmily.jpg": "/static/media/ghmily.c0d04dfcb83ced30b437.jpg",
     "index.html": "/index.html",
-    "main.13615064.css.map": "/static/css/main.13615064.css.map",
-    "main.3f689da4.js.map": "/static/js/main.3f689da4.js.map"
+    "main.72ad9785.css.map": "/static/css/main.72ad9785.css.map",
+    "main.1bbe95a9.js.map": "/static/js/main.1bbe95a9.js.map"
   },
   "entrypoints": [
-    "static/css/main.13615064.css",
-    "static/js/main.3f689da4.js"
+    "static/css/main.72ad9785.css",
+    "static/js/main.1bbe95a9.js"
   ]
 }
