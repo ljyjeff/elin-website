@@ -25,25 +25,25 @@ const Navbar = () => {
       >
         <ul className="nav__list">
           <li className="nav__item">
-              <NavLink to="/" className="nav__link" onClick={closeMenuOnMobile}>
+              <NavLink to="/illustration" className="nav__link" onClick={closeMenuOnMobile}>
                 Illustration
                 </NavLink>
           </li>
-          <li className="nav__item">
-              <NavLink to="/" className="nav__link" onClick={closeMenuOnMobile}>
+          {/* <li className="nav__item">
+              <NavLink to="/comic" className="nav__link" onClick={closeMenuOnMobile}>
                 Comic
                 </NavLink>
           </li>
           <li className="nav__item">
-              <NavLink to="/" className="nav__link" onClick={closeMenuOnMobile}>
+              <NavLink to="/childrensbook" className="nav__link" onClick={closeMenuOnMobile}>
                 Children's Book
                 </NavLink>
           </li>
           <li className="nav__item">
-              <NavLink to="/" className="nav__link" onClick={closeMenuOnMobile}>
+              <NavLink to="/about" className="nav__link" onClick={closeMenuOnMobile}>
                 About
                 </NavLink>
-          </li>
+          </li> */}
         </ul>
         <div className="nav__close" id="nav-close" onClick={toggleMenu}>
           <IoClose />

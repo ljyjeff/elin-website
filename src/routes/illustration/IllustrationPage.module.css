@@ -1,0 +1,14 @@
+.lightbox {
+  --yarl__color_backdrop: rgba(255, 255, 255, 1);
+  --yarl__thumbnails_thumbnail_background: rgba(255, 255, 255, 1);
+  --yarl__thumbnails_thumbnail_border_color: var(--button-color);
+  --yarl__thumbnails_thumbnail_active_border_color: var(--first-color);
+  --yarl__thumbnails_thumbnail_active_border_color: var(--first-color);
+  --yarl__color_button: var(--button-color);
+  --yarl__color_button_active: var(--first-color);
+  --yarl__icon_size: 3rem;
+}
+
+.lightbox :global(.yarl__thumbnails_thumbnail_active) {
+  border-width: 1.5px;
+}

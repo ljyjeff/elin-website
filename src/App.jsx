@@ -10,7 +10,7 @@ import "./App.css";
 
 // Import your components for each page
 import ErrorPage from "./routes/ErrorPage";
-import IllustrationPage from './routes/IllustrationPage';
+import IllustrationPage from './routes/illustration/IllustrationPage';
 import ComicPage from './routes/ComicPage';
 import ChildrensBookPage from './routes/ChildrensBookPage';
 import navLogo from 'assets/header-home.png';
