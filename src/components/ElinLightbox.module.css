@@ -12,3 +12,7 @@
 .lightbox :global(.yarl__thumbnails_thumbnail_active) {
   border-width: 1.5px;
 }
+
+.lightbox :global(.yarl__carousel) {
+  --yarl__carousel_padding_percent: 20;
+}
