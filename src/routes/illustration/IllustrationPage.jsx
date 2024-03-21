@@ -1,7 +1,7 @@
 import {React, useState} from 'react';
 import PhotoAlbum from "react-photo-album";
 import photos from "./photos";
-import ElinLightbox from "components/ElinLightbox";
+import ElinLightbox from "components/lightbox/ElinLightbox";
 
 
 function IllustrationPage() {
