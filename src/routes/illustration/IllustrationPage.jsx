@@ -1,7 +1,7 @@
-import {React, useState} from 'react';
-import PhotoAlbum from "react-photo-album";
+import { React, useState } from 'react';
 import photos from "./photos";
 import ElinLightbox from "components/lightbox/ElinLightbox";
+import {MasonryAlbum} from "components/PhotoAlbums";
 
 
 function IllustrationPage() {
@@ -9,19 +9,16 @@ function IllustrationPage() {
 
   return (
     <div>
-      <PhotoAlbum 
-        layout="masonry" 
-        photos={photos} 
-        columns={3}
-        onClick={({ index }) => setIndex(index)}
-        />
-
-      <ElinLightbox 
+      <MasonryAlbum 
+        photos={photos}
+        onClick={({index}) => setIndex(index)}
+      />
+      <ElinLightbox
         photos={photos}
         index={index}
-        onClose={() => setIndex(-1)}/>
+        onClose={() => setIndex(-1)} />
     </div>
-    );
+  );
 }
 
 export default IllustrationPage;

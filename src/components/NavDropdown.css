@@ -1,0 +1,17 @@
+.nav__dropdown_link {
+  color: var(--title-color);
+  font-family: var(--body-font-font-family);
+  font-style: var(--body-font-font-style);
+  font-size: 1rem;
+  width: 100%;
+}
+
+.nav__dropdown_item {
+  padding: 0.2rem 1rem;
+  transition: background-color 0.4s;
+  background-color: var(--body-color);
+}
+
+.nav__dropdown_item:hover {
+  background-color: var(--highlight-color);
+}

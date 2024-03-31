@@ -1,5 +1,3 @@
-
-
 const photoLocalLinks = [
   { src: "sheeleepy.jpg", title: "Sheeleepy", width: 4050, height: 6000 },
   { src: "spring_rain.jpg", title: "Spring Rain", width: 2800, height: 4000 },
