@@ -77,12 +77,15 @@
   font-family: var(--body-font-font-family);
   font-style: var(--body-font-font-style);
   font-size: 1.5rem;
+  align-self: center;
 }
 
 .nav__link {
   transition: background-color 0.4s;
   padding: 1rem;
   background-color: var(--body-color);
+  display: flex;
+  height: 100%;
 }
 
 .nav__link:hover {
