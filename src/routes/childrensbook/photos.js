@@ -1,5 +1,6 @@
 const other = [
   { src: "ghmily.jpg", title: "Guess How Much I Love You", width: 1122, height: 1452},
+  { src: "rich_girl_and_rat.jpg", title: "Rich Girl and Her Rat Friend", width: 2244, height: 1452},
 ];
 
 const giantIsland = [
