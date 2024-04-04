@@ -1,10 +1,11 @@
 import { React, useState } from 'react';
-import { otherPhotos, giantIslandPhotos } from "./photos";
+import { otherPhotos, giantIslandPhotos, angelPhotos } from "./photos";
 import { useParams } from 'react-router-dom';
 import ElinLightbox from "components/lightbox/ElinLightbox";
 import { RowAlbum } from "components/PhotoAlbums";
 
 const books = {
+  'angel': { photos: angelPhotos, album: RowAlbum },
   'giantisland': { photos: giantIslandPhotos, album: RowAlbum },
   'other': { photos: otherPhotos, album: RowAlbum }
 }

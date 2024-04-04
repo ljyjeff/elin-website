@@ -3,9 +3,17 @@ const other = [
 ];
 
 const giantIsland = [
-  { src: "giant_1.jpg", title: "Giant", width: 1122, height: 1452},
-  { src: "giant_2.jpg", title: "Giant 2", width: 2244, height: 1452},
+  { src: "giant_1.jpg", title: "Giant Island", width: 1122, height: 1452},
+  { src: "giant_2.jpg", title: "Giant Island", width: 2244, height: 1452},
 ];
+
+const angel = [
+    { src: "angel_1.jpg", title: "The True Angel", width: 4500, height: 2250},
+    { src: "angel_2.jpg", title: "The True Angel", width: 4500, height: 2250},
+    { src: "angel_3.jpg", title: "The True Angel", width: 4500, height: 2250},
+    { src: "angel_4.jpg", title: "The True Angel", width: 4500, height: 2250},
+    { src: "angel_5.jpg", title: "The True Angel", width: 4500, height: 2250},
+  ];
 
 function toPhoto(photo) {
   return {
@@ -18,5 +26,6 @@ function toPhoto(photo) {
 
 const otherPhotos = other.map(toPhoto);
 const giantIslandPhotos = giantIsland.map(toPhoto);
+const angelPhotos = angel.map(toPhoto);
 
-export {otherPhotos, giantIslandPhotos};
+export {otherPhotos, giantIslandPhotos, angelPhotos};
