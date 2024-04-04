@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.f1bb8a2c.css",
-    "main.js": "/static/js/main.1bb048b8.js",
+    "main.js": "/static/js/main.09891417.js",
     "static/media/sheeleepy.jpg": "/static/media/sheeleepy.2ab7f4aa5e78d12a82e4.jpg",
     "static/media/spring_rain.jpg": "/static/media/spring_rain.d91c2c1a2fad6bdcfa11.jpg",
     "static/media/angel_9.jpg": "/static/media/angel_9.f44ca3e7a10ca7100a51.jpg",
@@ -14,19 +14,25 @@
     "static/media/angel_5.jpg": "/static/media/angel_5.0e13b1d1bc79d43ad04d.jpg",
     "static/media/header-home.png": "/static/media/header-home.b2095ccb0200207250d3.png",
     "static/media/angel_6.jpg": "/static/media/angel_6.dd214e1252525627c3fd.jpg",
+    "static/media/sound_of_autumn.jpg": "/static/media/sound_of_autumn.9ab6d678d0222067bd34.jpg",
     "static/media/red_and_ak_grandma.jpg": "/static/media/red_and_ak_grandma.b9f742472919dbf070c2.jpg",
     "static/media/angel_3.jpg": "/static/media/angel_3.e489b415d1bdf8904914.jpg",
+    "static/media/rabbit_in_rabbit.jpg": "/static/media/rabbit_in_rabbit.660cae1bdc165ca93e12.jpg",
     "static/media/listen_to_summer.jpg": "/static/media/listen_to_summer.be383345d15beadbfebc.jpg",
+    "static/media/rich_girl_and_rat.jpg": "/static/media/rich_girl_and_rat.da822af8db02affee2f5.jpg",
     "static/media/self_portrait.jpg": "/static/media/self_portrait.43c669b9641a965486fc.jpg",
     "static/media/giant_2.jpg": "/static/media/giant_2.040e0a85adff580825ac.jpg",
     "static/media/giant_1.jpg": "/static/media/giant_1.bc49e36425589b7b64d8.jpg",
+    "static/media/greenward_catnata.jpg": "/static/media/greenward_catnata.36965eec88c26e749594.jpg",
     "static/media/ghmily.jpg": "/static/media/ghmily.c0d04dfcb83ced30b437.jpg",
+    "static/media/afterschool.jpg": "/static/media/afterschool.d0cd409987e862389da5.jpg",
+    "static/media/drunk_rat.jpg": "/static/media/drunk_rat.1c2fad3016e10a8dd439.jpg",
     "index.html": "/index.html",
     "main.f1bb8a2c.css.map": "/static/css/main.f1bb8a2c.css.map",
-    "main.1bb048b8.js.map": "/static/js/main.1bb048b8.js.map"
+    "main.09891417.js.map": "/static/js/main.09891417.js.map"
   },
   "entrypoints": [
     "static/css/main.f1bb8a2c.css",
-    "static/js/main.1bb048b8.js"
+    "static/js/main.09891417.js"
   ]
 }
