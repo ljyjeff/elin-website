@@ -6,14 +6,20 @@ import "./Navbar.css";
 
 const childrensBookList = [
     {
-    link: "/childrensbook/angel", displayText: "The True Angel"
-    }, 
+        link: "/childrensbook/angel", displayText: "The True Angel"
+    },
     {
-    link: "/childrensbook/giantisland", displayText: "Giant Island"
-    }, 
+        link: "/childrensbook/giantisland", displayText: "Giant Island"
+    },
     {
-    link: "/childrensbook/other", displayText: "Other"
+        link: "/childrensbook/other", displayText: "Other"
     }
+]
+
+const gameList = [
+    {
+        link: "/games/grwm", displayText: "GRWM: Walking My Cat"
+    },
 ]
 
 const Navbar = () => {
@@ -49,6 +55,12 @@ const Navbar = () => {
                             <NavDropdown items={childrensBookList} closeMainMenuOnMobile={closeMenuOnMobile} />
                         </div>
                     </li>
+                    <li className="nav__item nav__has_dropdown">
+                        <div className="nav__link nav__link_text">Game</div>
+                        <div className="nav__dropdown">
+                            <NavDropdown items={gameList} closeMainMenuOnMobile={closeMenuOnMobile} />
+                        </div>
+                    </li>
                     <li className="nav__item">
                         <a className="nav__link" href="https://www.instagram.com/elinhua_art/" target="_blank" rel="noreferrer">
                             <svg className="nav__link_text" xmlns="http://www.w3.org/2000/svg" width="1.5rem" height="1.5rem" fill="currentColor" viewBox="0 0 16 16">
@@ -56,17 +68,6 @@ const Navbar = () => {
                             </svg>
                         </a>
                     </li>
-                    {/*
-          <li className="nav__item">
-              <NavLink to="/childrensbook" className="nav__link" onClick={closeMenuOnMobile}>
-                Children's Book
-                </NavLink>
-          </li>
-          <li className="nav__item">
-              <NavLink to="/about" className="nav__link" onClick={closeMenuOnMobile}>
-                About
-                </NavLink>
-          </li> */}
                 </ul>
                 <div className="nav__close" id="nav-close" onClick={toggleMenu}>
                     <IoClose />

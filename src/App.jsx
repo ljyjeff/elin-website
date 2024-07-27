@@ -11,7 +11,7 @@ import "./App.css";
 // Import your components for each page
 import ErrorPage from "./routes/ErrorPage";
 import IllustrationPage from './routes/illustration/IllustrationPage';
-import ComicPage from './routes/ComicPage';
+import GrwmPage from './routes/game/GrwmPage';
 import ChildrensBookPage from './routes/childrensbook/ChildrensBookPage';
 import navLogo from 'assets/header-home.png';
 
@@ -30,8 +30,8 @@ const router = createBrowserRouter([
         element: <IllustrationPage />,
       },
       {
-        path: "/comic",
-        element: <ComicPage />,
+        path: "/games/:game",
+        element: <GrwmPage />,
       },
       {
         path: "/childrensbook/:book",
