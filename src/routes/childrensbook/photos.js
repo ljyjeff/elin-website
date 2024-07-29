@@ -18,11 +18,14 @@ const angel = [
     { src: "angel_7.jpg", title: "The True Angel", width: 4500, height: 2250},
     { src: "angel_8.jpg", title: "The True Angel", width: 4500, height: 2250},
     { src: "angel_9.jpg", title: "The True Angel", width: 4500, height: 2250},
-    { src: "angel_t_4.jpg", title: "The True Angel", width: 4500, height: 2250},
-    { src: "angel_t_3.jpg", title: "The True Angel", width: 4500, height: 2250},
     { src: "angel_10.jpg", title: "The True Angel", width: 4500, height: 2250},
-    { src: "angel_t_2.jpg", title: "The True Angel", width: 4500, height: 2250},
-    { src: "angel_t_1.jpg", title: "The True Angel", width: 4500, height: 2250},
+    { src: "angel_11.jpg", title: "The True Angel", width: 4500, height: 2250},
+    { src: "angel_12.jpg", title: "The True Angel", width: 4500, height: 2250},
+    { src: "angel_13.jpg", title: "The True Angel", width: 4500, height: 2250},
+    { src: "angel_14.jpg", title: "The True Angel", width: 4500, height: 2250},
+    { src: "angel_15.jpg", title: "The True Angel", width: 4500, height: 2250},
+    { src: "angel_16.jpg", title: "The True Angel", width: 4500, height: 2250},
+    { src: "angel_17.jpg", title: "The True Angel", width: 4500, height: 2250},
   ];
 
 function toPhoto(photo) {
