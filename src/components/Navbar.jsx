@@ -16,12 +16,6 @@ const childrensBookList = [
     }
 ]
 
-const gameList = [
-    {
-        link: "/games/grwm", displayText: "GRWM: Walking My Cat"
-    },
-]
-
 const Navbar = () => {
 
     const [showMenu, setShowMenu] = useState(false);
@@ -55,10 +49,11 @@ const Navbar = () => {
                             <NavDropdown items={childrensBookList} closeMainMenuOnMobile={closeMenuOnMobile} />
                         </div>
                     </li>
-                    <li className="nav__item nav__has_dropdown">
-                        <div className="nav__link nav__link_text">Game</div>
-                        <div className="nav__dropdown">
-                            <NavDropdown items={gameList} closeMainMenuOnMobile={closeMenuOnMobile} />
+                    <li className="nav__item">
+                        <div className="nav__link">
+                            <NavLink to="/games/grwm" className="nav__link_text" onClick={closeMenuOnMobile}>
+                                Game
+                            </NavLink>
                         </div>
                     </li>
                     <li className="nav__item">
