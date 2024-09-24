@@ -11,9 +11,9 @@ const childrensBookList = [
     {
         link: "/childrensbook/giantisland", displayText: "Giant Island"
     },
-    {
-        link: "/childrensbook/other", displayText: "Other"
-    }
+    // {
+    //     link: "/childrensbook/other", displayText: "Other"
+    // }
 ]
 
 const Navbar = () => {
