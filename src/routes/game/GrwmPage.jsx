@@ -1,51 +1,28 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import "./GrwmPage.css";
 
-function embeddedGame() {
-    return (<iframe
-        title='GRWM'
-        frameborder="0"
-        src="https://itch.io/embed-upload/10340226?color=cb7c95"
-        allowfullscreen=""
-        width="980"
-        height="680"
-    >
-        <a href="https://elinrator.itch.io/get-ready-with-me-walking-my-cat">Play Get Ready With Me: Walking My Cat on itch.io</a>
-    </iframe>)
+function embeddedVideo() {
+    return (
+        <div class="embedded_video_container">
+            <iframe class="embedded_video_iframe"
+                src="https://www.youtube.com/embed/ebGY07W2s2k?si=pVryGmjy0U266Tk6"
+                title="GRWM Video"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen=""></iframe>
+        </div>)
 }
 
-function embeddedGameReplacement() {
-    return (<div className='game_replacement'>
-        <p>Ensure your window is at least 1000x700 in size to directly view the game. Or go to  <a href="https://elinrator.itch.io/get-ready-with-me-walking-my-cat">https://elinrator.itch.io/get-ready-with-me-walking-my-cat</a></p>
-    </div>)
-}
-
-
-// 1000 x 700
 function GrwmPage() {
-    const [showEmbeddedGame, setShowEmbeddedGame] =
-        useState(
-            window.innerWidth >= 1000
-            && window.innerHeight >= 700
-        );
-
-    useEffect(() => {
-        const handleResize = () => {
-            setShowEmbeddedGame(window.innerWidth >= 1000 && window.innerHeight >= 700)
-        };
-        window.addEventListener('resize', handleResize);
-        return () => {
-            window.removeEventListener('resize', handleResize);
-        };
-    }, []);
-
     return (
         <div className='main_container'>
             <div className='section_container'>
                 <div className='content_container'>
                     <h1>GRWM: Walking My Cat</h1>
                 </div>
-                {showEmbeddedGame ? embeddedGame() : embeddedGameReplacement()}
+                {embeddedVideo()}
+                <h1>{"Try the game out yourself: "}
+                    <a href="https://elinrator.itch.io/get-ready-with-me-walking-my-cat"><u>GRWM On Walking My Cat</u></a></h1>
                 <div className='content_container'>
                     <div className='p_container'>
                         <h2>Instructions</h2>

@@ -1,10 +1,10 @@
 import PhotoAlbum from "react-photo-album";
 
-const MasonryAlbum = ({ photos, onClick }) =>
+const MasonryAlbum = ({ columns = 3, photos, onClick }) =>
   <PhotoAlbum
     layout="masonry"
     photos={photos}
-    columns={3}
+    columns={columns}
     onClick={onClick}
   />
 
