@@ -13,9 +13,9 @@ function RenderSlide({ slide, children }) {
       <div className={styles.image_container}>
         {children}
       </div>
-      <div className={styles.description_container}>
+      {/* <div className={styles.description_container}>
         <h2>{slide.title}</h2>
-      </div>
+      </div> */}
     </div>
   );
 }
